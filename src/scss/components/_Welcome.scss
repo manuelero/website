@@ -50,30 +50,27 @@
 	}
 }
 @include tablet-screen {
-	.roadmap {
+	.welcome {
 		margin-top: 100px;
 		padding: 0 20px;
 
-		.heading {
-			flex-direction: column;
-			align-items: center;
-			gap: 10px;
-
-			.heading_img {
-				width: 70%;
-			}
-
-			.line {
-				width: 70%;
-				margin-top: 1px;
-				display: none;
-			}
-		}
-
-		.roadmaps_row {
+		.welcome_row {
 			display: flex;
 			flex-direction: column;
 			gap: 30px;
+
+			.single_column {
+				align-items: start;
+				.text {
+					position: relative;
+				}
+			}
+			.phone {
+				align-items: end;
+				img {
+					width: 100%;
+				}
+			}
 		}
 	}
 }

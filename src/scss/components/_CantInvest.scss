@@ -37,7 +37,6 @@
 					background-color: inherit;
 					font-weight: bold;
 					font-size: 50px;
-					line-height: 50px;
 					color: #000000;
 					margin-top: 40px;
 				}
@@ -93,30 +92,31 @@
 	}
 }
 @include tablet-screen {
-	.roadmap {
+	.cantInvest {
 		margin-top: 100px;
-		padding: 0 20px;
-
-		.heading {
-			flex-direction: column;
-			align-items: center;
-			gap: 10px;
-
-			.heading_img {
-				width: 70%;
-			}
-
-			.line {
-				width: 70%;
-				margin-top: 1px;
-				display: none;
-			}
-		}
-
-		.roadmaps_row {
+		padding-bottom: 40px;
+		.cantInvest_row {
 			display: flex;
 			flex-direction: column;
 			gap: 30px;
+
+			.single_column {
+				align-items: start;
+				padding: 0;
+				.text {
+					position: relative;
+					h1 {
+						font-size: 30px;
+					}
+				}
+			}
+			.list {
+				padding: 0 0 0 0;
+				align-items: end;
+				img {
+					width: 100%;
+				}
+			}
 		}
 	}
 }
