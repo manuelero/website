@@ -1,17 +1,18 @@
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import About from './components/About'
-import Roadmap from './components/Roadmap'
+import Welcome from './components/Welcome'
 import Team from './components/Team'
 import Footer from './components/Footer'
 import Helmet from 'react-helmet'
+import texts from './texts/metadata'
 
 function App() {
 	return (
 		<div className="App">
 			<Helmet>
 				{/*<!-- HTML Meta Tags -->*/}
-				<title>Shape Monsters</title>
+				<title>{texts.Title}</title>
 				<meta name="description" content="Shape Monster are one of the first NFT collections on the Moonbeam Network consisting of 1,111 algorithmically generated NFTs. "/>
 
 				{/*<!-- Google / Search Engine Tags -->*/}
@@ -33,10 +34,12 @@ function App() {
 				<meta name="twitter:image" content="https://shapes.monster/static/media/YellowMonster.d60dc68eadb27e76eddb.png"/>
 			</Helmet>
 			<Navbar />
+			<Welcome/>
+			{/*
 			<Hero />
 			<About />
 			<Roadmap />
-			{/* <Team />*/}
+				<Team />*/}
 			<Footer />
 		</div>
 	)
