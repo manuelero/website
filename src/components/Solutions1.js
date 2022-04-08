@@ -1,5 +1,5 @@
 import DistressedAssets from '../assets/DistressedAssets.svg'
-import Phone from '../assets/Phone.png'
+import Circle from '../assets/Circle.svg'
 import texts from '../texts/solutions1.json'
 import Paine from '../assets/Paine.gif'
 const Solution1 = () => {
@@ -17,11 +17,8 @@ const Solution1 = () => {
 						<p>{texts.item_c}</p>
 					</div>
 				</div>
-				<div className="phone">
-					<img src={Phone} alt="Phone" />
-
-					<div className="text">
-						</div>
+				<div className="drawing">
+					<img src={Circle} alt="Phone" />
 				</div>
 			</div>
 		</div>

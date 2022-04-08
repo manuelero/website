@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Welcome from './components/Welcome'
 import CantInvest from './components/CantInvest'
 import Solutions1 from './components/Solutions1'
+import Solutions2 from './components/Solutions2'
 import Footer from './components/Footer'
 import Helmet from 'react-helmet'
 import texts from './texts/metadata'
@@ -36,6 +37,7 @@ function App() {
 			<Welcome/>
 			<CantInvest/>
 			<Solutions1/>
+			<Solutions2/>
 			{/*
 			<Hero />
 			<About />
