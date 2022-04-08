@@ -1,0 +1,85 @@
+.solutions1 {
+	padding: 0 20px;
+	padding-bottom: 50px;
+
+	.solutions1_row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.single_column {
+			width: 100%;
+			position: relative;
+			display: flex;
+			padding: 0 200px;
+			align-items: center;
+
+			img {
+				padding-top: 40px;
+				padding-bottom: 40px;
+				width: 35%;
+				object-fit: cover;
+			}
+
+			.text {
+				position: absolute;
+				text-align: center;
+
+				h1 {
+					font-weight: bold;
+					font-size: 50px;
+					color: #000000;
+					margin-top: 40px;
+					margin-bottom: 40px;
+				}
+
+				.distressed {
+					margin: 30px;
+					padding: 10px;
+				}
+			}
+		}
+		.phone {
+			width: 100%;
+			margin-top: 0;
+			padding: 0 100px;
+			text-align: center;
+
+			img {
+				width: 200px;
+			}
+		}
+	}
+}
+
+@include laptop-screen {
+	.solutions1 {
+		padding: 0 100px;
+	}
+}
+@include tablet-screen {
+	.solutions1 {
+		padding: 0 20px;
+		margin-bottom: 80px;
+
+		.solutions1_row {
+			display: flex;
+			flex-direction: column;
+			gap: 30px;
+
+			.single_column {
+				align-items: start;
+				padding: 0;
+				.text {
+					position: relative;
+				}
+			}
+			.phone {
+				align-items: end;
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

@@ -1,7 +1,7 @@
-import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Welcome from './components/Welcome'
 import CantInvest from './components/CantInvest'
+import Solutions1 from './components/Solutions1'
 import Footer from './components/Footer'
 import Helmet from 'react-helmet'
 import texts from './texts/metadata'
@@ -35,6 +35,7 @@ function App() {
 			<Navbar />
 			<Welcome/>
 			<CantInvest/>
+			<Solutions1/>
 			{/*
 			<Hero />
 			<About />

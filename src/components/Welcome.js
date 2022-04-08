@@ -15,7 +15,7 @@ const Welcome = () => {
 					</div>
 				</div>
 				<div className="phone">
-					<img src={Phone} alt="Phone" />
+					<img src={Phone} alt="Paine" />
 
 					<div className="text">
 						</div>
