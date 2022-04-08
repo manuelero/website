@@ -4,9 +4,9 @@ import texts from '../texts/solutions2.json'
 
 const Solutions2 = () => {
 	return (
-		<div className="cantInvest">
+		<div className="solutions2">
 
-			<div className="cantInvest_row">
+			<div className="solutions2_row">
 				<div className="single_column">
 					<div className="text">
 						<img src={Circle} alt="Line" />
