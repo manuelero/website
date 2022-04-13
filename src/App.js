@@ -3,6 +3,7 @@ import Welcome from './components/Welcome'
 import CantInvest from './components/CantInvest'
 import Solutions1 from './components/Solutions1'
 import Solutions2 from './components/Solutions2'
+import WhyUs from './components/WhyUs'
 import Footer from './components/Footer'
 import Helmet from 'react-helmet'
 import texts from './texts/metadata'
@@ -38,6 +39,7 @@ function App() {
 			<CantInvest/>
 			<Solutions1/>
 			<Solutions2/>
+			<WhyUs/>
 			{/*
 			<Hero />
 			<About />
