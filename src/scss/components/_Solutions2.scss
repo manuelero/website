@@ -1,6 +1,6 @@
 .solutions2 {
-	margin-bottom: 10px;
-	padding: 0 20px;
+	margin: 10px 0px;
+	padding: 50px 20px;
 	background-color: #ffffff;
 
 	.solutions2_row {
@@ -21,10 +21,10 @@
 
 			img {
 				background-color: inherit;
-				padding-top: 40px;
-				padding-bottom: 40px;
-				width: 35%;
-				object-fit: cover;
+				padding-top: 0px;
+				padding-bottom: 0px;
+				width: 80%;
+				// object-fit: cover;
 			}
 
 			.text {
@@ -67,7 +67,7 @@
 					font-size: 20px;
 					text-align: left;
 					color: #000000;
-					margin-top: 20px;
+					margin: 40px 0 ;
 					img {
 						background-color: inherit;
 						width: 25px;

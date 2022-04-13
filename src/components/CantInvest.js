@@ -1,6 +1,6 @@
 import Line from '../assets/Line.svg'
 import Cross from '../assets/Cross.svg'
-import Circle from '../assets/Circle.svg'
+import CantInvestSVG from '../assets/CantInvest-cropped.svg'
 import texts from '../texts/cantInvest.json'
 
 const CantInvest = () => {
@@ -12,7 +12,7 @@ const CantInvest = () => {
 					<div className="text">
 						<h1>{texts.Title.toUpperCase()}</h1>
 						<h2>{texts.subtitle}</h2>
-						<img src={Circle} alt="Line" />
+						<img src={CantInvestSVG} alt="Line" />
 					</div>
 				</div>
 				<div className="list">

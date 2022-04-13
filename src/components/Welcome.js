@@ -1,7 +1,6 @@
 import Line from '../assets/Line.svg'
 import Phone from '../assets/Phone.png'
 import texts from '../texts/welcome.json'
-import Paine from '../assets/Paine.gif'
 const Welcome = () => {
 	return (
 		<div className="welcome">

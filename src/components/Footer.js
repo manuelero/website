@@ -1,4 +1,3 @@
-import Tofu from '../assets/Tofu.png'
 import TwitterImg from '../assets/TwitterImg.png'
 import Discord from '../assets/discord.png'
 

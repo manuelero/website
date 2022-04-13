@@ -1,7 +1,7 @@
 .solutions1 {
 	padding: 0 20px;
-	padding-bottom: 50px;
-	padding-top: 50px;
+	padding-bottom: 0px;
+	padding-top: 0px;
 
 	.solutions1_row {
 		display: flex;
@@ -35,8 +35,11 @@
 				}
 
 				.distressed {
-					margin: 30px;
-					padding: 10px;
+					margin: 25px;
+					padding: 15px;
+					text-align: center;
+					background-repeat: no-repeat;
+					background-position: center;
 				}
 			}
 		}
@@ -46,7 +49,7 @@
 			text-align: center;
 
 			img {
-				width: 200px;
+				width: 100%;
 			}
 		}
 	}
@@ -60,7 +63,7 @@
 @include tablet-screen {
 	.solutions1 {
 		padding: 0 20px;
-		margin-bottom: 80px;
+		margin-bottom: 0px;
 
 		.solutions1_row {
 			display: flex;
@@ -74,8 +77,8 @@
 					position: relative;
 				}
 			}
-			.phone {
-				align-items: end;
+			.drawing {
+				padding: 0px;
 				img {
 					width: 100%;
 				}

@@ -1,7 +1,6 @@
 import DistressedAssets from '../assets/DistressedAssets.svg'
-import Circle from '../assets/Circle.svg'
+import Solutions1SVG from '../assets/Solutions1.svg'
 import texts from '../texts/solutions1.json'
-import Paine from '../assets/Paine.gif'
 const Solution1 = () => {
 	return (
 		<div className="solutions1">
@@ -10,7 +9,6 @@ const Solution1 = () => {
 					<div className="text">
 						<h1>{texts.Title}</h1>
 						<p>{texts.item_a}</p>
-						{/*<img src={DistressedAssets} alt="DistressedAssets" />*/}
 						<p> </p>
 						<div className="distressed" style={{backgroundImage: `url(${DistressedAssets})`}}>{texts.item_b}</div>
 						<p> </p>
@@ -18,7 +16,7 @@ const Solution1 = () => {
 					</div>
 				</div>
 				<div className="drawing">
-					<img src={Circle} alt="Phone" />
+					<img src={Solutions1SVG} alt="Phone" />
 				</div>
 			</div>
 		</div>

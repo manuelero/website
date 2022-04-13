@@ -1,5 +1,5 @@
 import Check from '../assets/Check.png'
-import Circle from '../assets/Circle.svg'
+import Solutions2Drawing from '../assets/Solutions2Drawing.png'
 import texts from '../texts/solutions2.json'
 
 const Solutions2 = () => {
@@ -9,7 +9,7 @@ const Solutions2 = () => {
 			<div className="solutions2_row">
 				<div className="single_column">
 					<div className="text">
-						<img src={Circle} alt="Line" />
+						<img src={Solutions2Drawing} alt="Line" />
 					</div>
 				</div>
 				<div className="list">
