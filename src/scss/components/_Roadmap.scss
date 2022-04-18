@@ -1,0 +1,87 @@
+.Roadmap {
+	margin-top: 100px;
+	margin-bottom: 10px;
+	padding: 0 20px;
+
+.my-button {
+  display: flex;
+  align-items: center;
+
+	img {
+		background: white;
+		height: 26px;
+		margin-right: 10px;
+	}
+}
+
+
+	.Roadmap_row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 50px;
+
+		.single_column {
+			width: 100%;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 2px;
+
+			button {
+				flex-direction: row;
+				background: white;
+				padding: 10px 10px;
+				box-shadow: 15px 15px ;
+				border: none;
+			}
+			h2 {
+				background: white;
+				font-weight: bold;
+				color: #000000;
+			}
+		}
+
+	}
+}
+
+@include laptop-screen {
+	.roadmap {
+		padding: 0 100px;
+	}
+}
+@include tablet-screen {
+	.Roadmap {
+		margin-top: 100px;
+		padding-bottom: 40px;
+		.Roadmap_row {
+			margin: 30px;
+			display: flex;
+			flex-direction: column-reverse;
+			gap: 30px;
+
+			.single_column {
+				align-items: start;
+				padding: 0;
+				.text {
+					margin: 10px;
+					position: relative;
+					h1 {
+						font-size: 30px;
+					}
+					img {
+						width: 280px;
+					}
+				}
+			}
+			.list {
+				padding: 0;
+				margin: 0;
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
