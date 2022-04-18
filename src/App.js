@@ -4,6 +4,7 @@ import CantInvest from './components/CantInvest'
 import Solutions1 from './components/Solutions1'
 import Solutions2 from './components/Solutions2'
 import WhyUs from './components/WhyUs'
+import Team from './components/Team'
 import Footer from './components/Footer'
 import Helmet from 'react-helmet'
 import texts from './texts/metadata'
@@ -40,11 +41,12 @@ function App() {
 			<Solutions1/>
 			<Solutions2/>
 			<WhyUs/>
+			<Team />
 			{/*
 			<Hero />
 			<About />
 			<Roadmap />
-				<Team />*/}
+				*/}
 			<Footer />
 		</div>
 	)

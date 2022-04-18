@@ -1,43 +1,35 @@
-import TeamLineLeft from '../assets/TeamLineLeft.png'
-import TeamHeadingImg from '../assets/TeamHeadingImg.png'
-import TeamLineRight from '../assets/TeamLineRight.png'
-
 import Team1 from '../assets/Team1.png'
 import Team2 from '../assets/Team2.png'
 import Team3 from '../assets/Team3.png'
+import texts from '../texts/team.json'
 
 const Team = () => {
 	return (
 		<div className="team">
-			<div className="heading">
-				<img className="left" src={TeamLineLeft} alt="TeamLineLeft" />
-				<img className="team_heading" src={TeamHeadingImg} alt="TeamHeadingImg" />
-				<img className="right" src={TeamLineRight} alt="TeamLineRight" />
-			</div>
-
+		<h1>{texts.Title}</h1>
 			<div className="teams_row">
 				<div className="single_team">
 					<div className="img_container">
 						<img src={Team1} alt="Team1" />
 					</div>
-					<h2>CHOPIX</h2>
-					<p>Project Manager</p>
+					<h2>{texts.subtitle_a}</h2>
+					<p>{texts.item_a}</p>
 				</div>
 
 				<div className="single_team">
 					<div className="img_container">
 						<img src={Team2} alt="Team1" />
 					</div>
-					<h2>LUIGIX</h2>
-					<p>Leader Artist</p>
+					<h2>{texts.subtitle_b}</h2>
+					<p>{texts.item_b}</p>
 				</div>
 
 				<div className="single_team">
 					<div className="img_container">
 						<img src={Team3} alt="Team1" />
 					</div>
-					<h2>Lil’ CLAWS</h2>
-					<p>Advisor</p>
+					<h2>{texts.subtitle_c}</h2>
+					<p>{texts.item_c}</p>
 				</div>
 			</div>
 		</div>
