@@ -1,5 +1,5 @@
 import Line from '../assets/Line.svg'
-import Phone from '../assets/Phone.png'
+import Phone from '../assets/Pinguinotelefono-unscreen.gif'
 import texts from '../texts/welcome.json'
 const Welcome = () => {
 	return (

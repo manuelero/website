@@ -1,5 +1,5 @@
 .welcome {
-	padding: 0 20px;
+	padding: 0 0px;
 
 	.welcome_row {
 		display: flex;
@@ -23,7 +23,6 @@
 			.text {
 				position: absolute;
 				text-align: center;
-
 				h1 {
 					font-weight: bold;
 					font-size: 50px;
@@ -35,9 +34,9 @@
 		.phone {
 			width: 100%;
 			margin-top: 50px;
-			padding: 0 100px;
+			padding: 0 0px;
 			text-align: center;
-
+			background: rgba(0,0,0,0);
 			img {
 				width: 50%;
 			}
