@@ -1,7 +1,10 @@
 import TwitterImg from '../assets/TwitterImg.png'
 import Discord from '../assets/discord.png'
+import React, {useState} from "react"
 
 const Footer = () => {
+	const [inputText, setInputText] = useState("Join the brrrrotherhood")
+
 	return (
 		<div className="footer">
 			<div className="grouped-icons">
@@ -12,12 +15,13 @@ const Footer = () => {
 					<img src={TwitterImg} alt="twitter" />
 				</a>
 			</div>
-			<a className="subscribe">
-			<button>
-				subscribe
-			</button>
-			Join the brrrrotherhood
-			</a>
+			<div className="subscribe">
+				<button>
+					subscribe
+				</button>
+
+				<input value={inputText} onChange={(e)=>setInputText(e.target.value)}/>
+			</div>
 		</div>
 	)
 }

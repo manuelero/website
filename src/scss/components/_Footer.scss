@@ -12,24 +12,42 @@
 	flex-direction: row;
 
 	button {
-		background: #a83a93;
+		background: #ebba24;
+		border-radius: 26px;
+		padding: 5px 10px;
+		color: white;
+		font-weight: bold;
+		border: none;
+		margin: 0 10px;
+
+	}
+	a {
+		background: inherit;
 	}
 
 	* {
 		background: #ffffff;
 	}
 	.grouped-icons {
+		background: inherit;
 		position: absolute;
 		left: 5em;
 	}
 	.subscribe {
+		background: inherit;
 		position: absolute;
 		right: 5em;
+
+		input {
+			padding: 0 10px;
+			height:	26px;
+			border: none;
+		}
 	}
 }
 .icon {
 	background: #000000;
-
+	margin: 0 15px;
 	* {
 		background: #000000;
 	}
