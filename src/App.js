@@ -6,6 +6,7 @@ import Solutions2 from './components/Solutions2'
 import WhyUs from './components/WhyUs'
 import Team from './components/Team'
 import Roadmap from './components/Roadmap'
+import Mint from './components/Mint'
 import Footer from './components/Footer'
 import Helmet from 'react-helmet'
 import texts from './texts/metadata'
@@ -44,10 +45,7 @@ function App() {
 			<WhyUs/>
 			<Team />
 			<Roadmap />
-			{/*
-			<Hero />
-			<About />
-				*/}
+			<Mint />
 			<Footer />
 		</div>
 	)
