@@ -73,24 +73,19 @@
 		.mint_row {
 			margin: 30px;
 			display: flex;
-			flex-direction: column-reverse;
+			flex-direction: column;
 			gap: 30px;
 
 			.single_column {
 				align-items: start;
 				padding: 0;
-				.text {
-					margin: 10px;
-					position: relative;
-					h1 {
-						font-size: 30px;
-					}
+				
+				.mint_drawing {
 					img {
 						width: 280px;
 					}
 				}
 			}
-
 		}
 	}
 }

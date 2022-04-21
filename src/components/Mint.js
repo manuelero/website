@@ -19,9 +19,11 @@ const Mint = () => {
         <h2> {texts.subtitle} </h2>
       </div>
 			<div className="mint_row">
-				<div className="single_column">
-					<img src={MintDrawing} alt="Line" />
-				</div>
+        <div className="single_column">
+          <div className="mint_drawing">
+          	<img src={MintDrawing} alt="Line"/>
+          </div>
+        </div>
 				<div className="single_column">
 					<Button text={texts.mint} image={Circle} secondaryText={texts.date}/>
 
