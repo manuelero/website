@@ -3,7 +3,7 @@ import Discord from '../assets/discord.png'
 import React, {useState} from "react"
 
 const Footer = () => {
-	const [inputText, setInputText] = useState("Join the brrrrotherhood")
+	const [inputText, setInputText] = useState("your email...")
 
 	return (
 		<div className="footer">
