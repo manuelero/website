@@ -14,6 +14,10 @@ const Button = ({ text, image, secondaryText}) => (
 const Mint = () => {
 	return (
 		<div className="mint">
+      <div className="mint_header">
+        <h1> {texts.title} </h1>
+        <h2> {texts.subtitle} </h2>
+      </div>
 			<div className="mint_row">
 				<div className="single_column">
 					<img src={MintDrawing} alt="Line" />

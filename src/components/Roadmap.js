@@ -13,7 +13,9 @@ const Button = ({ align, text, index }) => (
 const Roadmap = () => {
 	return (
 		<div className="Roadmap">
-		<h1>{texts.Title.toUpperCase()}</h1>
+      <div className="roadmap_header">
+        <h1>{texts.Title.toUpperCase()}</h1>
+      </div>
 			<div className="Roadmap_row">
 				<div className="single_column">
 					<Button text={texts.subtitle_a} index={1}/>
