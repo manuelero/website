@@ -7,8 +7,10 @@ import texts from '../texts/whyUs.json'
 const WhyUs = () => {
 	return (
 		<div className="whyUS">
+		<div className="whyUs_header">
+			<h1>{texts.Title.toUpperCase()}</h1>
+		</div>
 
-		<h1>{texts.Title.toUpperCase()}</h1>
 			<div className="whyUS_row">
 				<div className="single_column">
 					<div className="text">
